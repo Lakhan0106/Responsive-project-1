@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wander India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a class="logo" href="index.html">W̶̶a̶̶n̶̶d̶̶e̶̶r̶ ̶I̶̶n̶̶d̶̶i̶̶a̶</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="tours.html">TOURS</a></li>      
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Welcome to Wander India!</h1>
+                <p>At Wander India, we believe every journey should be as unique and unforgettable as the destinations themselves. 
+                    Our platform is your gateway to discovering the rich heritage, diverse culture, and stunning landscapes that
+                     make India one of the most extraordinary countries in the world.
+                    Whether you’re a solo backpacker, a family traveler, or someone seeking luxury escapes, 
+                    Wander India is here to inspire, inform, and guide your adventures.
+                </p>
+                <a href="tours.html" class="hero-btn red-btm">EXPLORE NOW</A>
+            </div>
+            <div class="about-col">
+                <img src="images/about-1.jpg">
+            </div>
+            
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Wander India is your ultimate travel companion, designed to help you explore the vibrant culture, breathtaking landscapes, and hidden gems of India. <br>Our mission is to inspire and guide travelers with curated itineraries, expert tips, and a passion for authentic experiences. 
+          <br>  Let us help you create memories that last a lifetime.</p>
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Lakhan Raut</p>
+    </section>
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
